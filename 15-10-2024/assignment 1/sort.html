@@ -1,0 +1,37 @@
+<!--VIPIN NAVANEETH M24W0263 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="sort.js"></script>
+    <h1>VIPIN NAVANEETH M24W0263</h1>
+    <title>Country and Capital Sorting</title>
+  </head>
+  <style>
+    table {
+        width: 50%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+<body>
+    <h1>Country and Capital Sorting</h1>
+    <button onclick="sortCountries('asc')">Sort Ascending</button>
+    <button onclick="sortCountries('desc')">Sort Descending</button>
+
+    <table id="countryTable">
+        <thead>
+            <tr><th>Country</th><th>Capital</th> </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Rows will be inserted here -->
+        </tbody>
+    </table>
+    </body>
+    </html>
